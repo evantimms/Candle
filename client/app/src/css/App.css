@@ -1,0 +1,115 @@
+html, body, #root {
+    height: 100%;
+}
+
+
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#content, #footer, #header {
+    width: 100%;
+    padding: 5px;
+}
+
+#content .chat {
+    height: 100%;
+}
+
+#header {
+    background: none;
+    height: 5%;
+}
+
+#footer {
+    background: none;
+    height: 5%;
+    font-size: 10px;
+}
+
+.page {
+    height: 100%;
+}
+
+#login-page .login-form {
+    margin-top: 50px;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.submit-button {
+    width: 100%;
+}
+
+.chat-header {
+    height: 100%;
+}
+
+.conversation-column .conversation-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px 0 5px;
+    height: 100%;
+    align-items: flex-start;
+}
+
+.chat-column, .conversation-column {
+    height: 100%;
+}
+
+.chat-list-container {
+    max-height: 100%;
+    overflow: auto;
+}
+
+.chat-container {
+    max-height: 90%;
+    overflow: auto;
+}
+
+.chat-input {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-input input {
+    width: 90%;
+}
+
+.chat-input i {
+    margin-right: 15px;
+}
+
+.about-column {
+    padding: 8px;
+}
+
+.about-column .signup-form {
+    margin-top: 5px;
+}
+
+.about-column .signup-title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.app-title-subheader {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.app-title {
+    font-size: 32px;
+}
